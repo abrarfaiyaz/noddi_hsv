@@ -10,4 +10,4 @@ ODI = niftiread('/public/afaiyaz/share_NODDI_CSVD_MRE/RN038/ODI.nii');
 slices_to_plot = [50];
 
 % Call the function
-plot_combined(icvf, fiso, ODI, slices_to_plot);
+plot_noddi_combined(icvf, fiso, ODI, slices_to_plot);
